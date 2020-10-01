@@ -78,6 +78,11 @@ if user_point > pc_point:
     print('your score is : ', user_point)
     print()
 
+elif user_point == pc_point:
+    print(" TIE ")
+    print("You and Computer have same points", user_point)
+    print()
+
 else:
         print('Bad LuCk pc win ')
         print("pc's score is : ", pc_point)
